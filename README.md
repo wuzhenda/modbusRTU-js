@@ -15,8 +15,10 @@ _Frame_
 make it useable for frontend,and what we need is only frame package
 
 refs:
+
 http://www.bradoncode.com/tutorials/browserify-tutorial-node-js/
+
 https://github.com/dcvice1967/jsModbus
 
 
-
+$ browserify index.js > target.js --standalone 'modbusrtu'
