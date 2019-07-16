@@ -11,7 +11,7 @@ A request using RTU is at least 4 bytes long.
 _Frame_
 [Slave Address] + [Function Code] + [Data] + [CRC]
 
-2019-7-16 update
+## 2019-7-16 update
 make it useable for frontend,and what we need is only frame package
 
 refs:
