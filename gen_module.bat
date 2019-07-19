@@ -1,2 +1,2 @@
-browserify  modbusmodule.js  > sendcmd_modbus_module.js  --standalone modbus
+browserify  modbusmodule.js  > sendcmd_modbus.js  --standalone modbus
 pause
