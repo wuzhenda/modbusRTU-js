@@ -1,0 +1,27 @@
+{
+  "name": "modbusrtu",
+  "version": "1.0.0",
+  "description": "Javascript implementation for the Modbus protocol!\r Draws heavely from too-tall-nate's modbus stack and minimalmodbus from python!",
+  "main": "modbusrtu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuzhenda/modbusRTU-js.git"
+  },
+  "author": "Henry Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuzhenda/modbusRTU-js/issues"
+  },
+  "homepage": "https://github.com/wuzhenda/modbusRTU-js#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "binary": "^0.3.0",
+    "buffer": "^5.2.1",
+    "buffers": "^0.1.1",
+    "crc": "^3.8.0",
+    "put": "0.0.6"
+  }
+}
