@@ -135,7 +135,10 @@ module.exports.getSensorData = function() {
 };
 
 module.exports.getSensorKPIData = function() {
-    return formRequestBuffer(1,3,2000,170);
+    return this.formRequestBuffer(1,3,2000,112);
 };
 
+module.exports.getSensorKPIData2 = function() {
+    return this.formRequestBuffer(1,3,2112,58);
+};
 

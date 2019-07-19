@@ -22,3 +22,12 @@ https://github.com/dcvice1967/jsModbus
 
 
 $ browserify index.js > target.js --standalone 'modbusrtu'
+
+
+##how to use in browser
+run gen_module.bat
+
+var modbusModule = window.modbus;
+var modbusRTU = new modbusModule();
+var payload = modbusRTU.getProductInfo();
+
