@@ -117,7 +117,7 @@ ModbusRTU.prototype.getStorageStatus = function() {
 };
 
 ModbusRTU.prototype.getSensorStatus = function() {
-    return this.formRequestBuffer(1,3,39,12);
+    return this.formRequestBuffer(1,3,39,16);
 };
 
 ModbusRTU.prototype.getConfiguration = function() {
@@ -125,15 +125,17 @@ ModbusRTU.prototype.getConfiguration = function() {
 };
 
 ModbusRTU.prototype.getSensorData = function() {
-    return this.formRequestBuffer(1,3,1000,80);
+    return this.formRequestBuffer(1,3,1000,104);
 };
 
+//vibration6~ 7.5
 ModbusRTU.prototype.getSensorKPIData = function() {
-    return this.formRequestBuffer(1,3,2000,112);
+    return this.formRequestBuffer(1,3,2000,122);
 };
 
+//vibration7.5~ end
 ModbusRTU.prototype.getSensorKPIData2 = function() {
-    return this.formRequestBuffer(1,3,2112,58);
+    return this.formRequestBuffer(1,3,2122,120);
 };
 
 
