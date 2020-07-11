@@ -124,6 +124,10 @@ ModbusRTU.prototype.getConfiguration = function() {
     return this.formRequestBuffer(1,3,100,2);
 };
 
+ModbusRTU.prototype.getEscalatorData = function() {
+    return this.formRequestBuffer(1,3,200,16);
+};
+
 ModbusRTU.prototype.getSensorData = function() {
     return this.formRequestBuffer(1,3,1000,104);
 };
